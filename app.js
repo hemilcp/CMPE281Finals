@@ -6,7 +6,7 @@ var getGumball = 'SELECT * FROM gumballpractise.gumball WHERE id=?';
 var updateGumball = 'UPDATE gumballpractise.gumball SET name=?,value=? WHERE id=?';
 var deleteGumball = 'DELETE FROM gumballpractise.gumball WHERE id=?'
 const cassandra = require('cassandra-driver');
-const client=new cassandra.Client({contactPoints : ['52.40.112.123:9042']});
+const client=new cassandra.Client({contactPoints : ['52.32.207.179:9042']});
 /*
 CREATE KEYSPACE "gumballpractise" WITH REPLICATION = { 'class' : 'SimpleStrategy' , 'replication_factor' :3 };
 CREATE TABLE gumball(name text, value text, id int, PRIMARY KEY(id));
