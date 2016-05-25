@@ -1,0 +1,17 @@
+{
+  "name": "gumball",
+  "version": "0.0.0",
+  "description": "gumball practise",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "author": "Vishv Brahmbhatt",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.4",
+    "body-parser": "~1.15.1",
+    "cassandra-driver": "~3.0.2"
+  }
+}
